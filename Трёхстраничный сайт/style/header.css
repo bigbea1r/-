@@ -1,0 +1,31 @@
+/*Start Cnt__Right*/
+header{
+    align-items:center;
+    position: relative;
+}
+.header__body{
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    width: 99.3%;
+    height: 5%;
+}
+.size{
+    font-weight: 700;
+    margin-left: 1rem;
+}
+.header__menu{
+    display:flex;
+    align-items:center;
+    width: 25%;
+    justify-content: space-between;
+}
+.item__header{
+    color: #DFE0EB;
+}
+.form__img__ov__2{
+    width: 2.75rem;
+    height: 2.75rem;
+    border-radius:50%;
+    border:3px #DFE0EB solid;
+}

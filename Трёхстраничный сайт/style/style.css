@@ -1,0 +1,129 @@
+@charset "UTF-8";
+/*Обнуление*/
+*,
+*::before,
+*::after {
+  padding: 0;
+  margin: 0;
+  border: 0;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+a {
+    text-decoration: none; 
+}
+ul,
+ol,
+li {
+    list-style: none;
+}
+img {
+  vertical-align: top;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: inherit;
+  font-size: inherit;
+}
+html, body {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    height: 100%;
+    font-family: 'Maven Pro', sans-serif;
+    font-family: 'Mulish', sans-serif;
+}
+button{
+    font-family: 'Maven Pro', sans-serif;
+    font-family: 'Mulish', sans-serif;
+
+}
+a {
+    color: inherit;
+}
+.wrapper__cnt__right {    
+  background: #F7F8FC;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items:center;
+  justify-content: center;
+}
+.container__right{
+  width: 90%;
+  height: 95%;
+}
+
+/* @media screen and (max-width: 1600px) {
+    .wrapper__ov {
+      max-width: 1200px;
+    }
+    .box__1 button{
+        position: relative;
+        max-width: 11.5rem;
+        max-height: 6rem;
+        padding:0.7rem 2.85rem;
+    }
+}
+ /* @media screen and (max-width: 1200px) {
+    .wrapper__ov {
+      max-width: 960px;
+    }
+    .container-left{
+        min-width: 12.5rem;
+    }
+    /*.box__1 button{
+        max-width: 9.2rem;
+        max-height: 4.8rem;
+        padding:0.56rem 2.064rem;
+        font-size: 1rem;
+    }
+    .box__1 p{
+        font-size: 1rem;
+    }*/
+/*  }
+  @media screen and (max-width: 960px) {
+    .wrapper__ov {
+      max-width: 720px;
+    }
+    /*.box__1 button{
+        padding:0.43rem 1.5875rem;
+    }*/
+ /* }
+  @media screen and (max-width: 720px) {
+    .wrapper__ov {
+      max-width: 560px;
+   /* }
+    .containet-left {
+      margin: 1.5rem;
+    }
+    .container-right {
+      padding: 1.5rem;
+    }*/
+/*  }
+}
+  @media screen and (max-width: 560px) {
+    .wrapper__ov {
+      max-width: 480px;
+    }
+    .containet-left {
+      margin: 1rem;
+    }
+    .container-right {
+      padding: 1rem;
+    }
+  }
+  @media screen and (max-width: 480px) {
+    .wrapper__ov {
+      display: inline-block;
+    }
+  }
+  @media screen and (orientation:portrait) { /* @media screen and (orientation:portrait) { для ландшафтной ориентации*/
+  /*.wrapper__ov {
+      display: inline-block;
+    }
+  }
